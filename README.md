@@ -3,9 +3,14 @@ Inspur
 ## **db2_backup.sh**
 A shell script for database backuping of DB2.
 
-The shell script can backup DB2 automatically.
-
 ## **db2_log_clean.sh**
 A shell script for cleaning DB2 log.
 
-The shell script can clean DB2 log automatically.
+## **db2_table_clean.sh**
+A shell script for clearing DB2 table and release the tablespace.
+
+## **db2_restart.sh**
+A shell script for restarting DB2.
+
+## **tongweb_restart.sh**
+A shell script for restarting TongWeb.

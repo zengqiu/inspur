@@ -20,7 +20,7 @@ else
     db2 prune logfile prior to $LOG;
 
     if [ $? -eq 0 ]; then
-        find /db2log/db2inst1/ECGAP/NODE0000/C0000010 -ctime +1 -exec rm -rf {} \;
+        find /db2log/db2inst1/ECGAP/NODE0000/C0000000 -ctime +1 -exec rm -rf {} \;
         echo "Clean ecgap complete!"
     else
         echo "Clean ecgap not failed!"
